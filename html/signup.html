@@ -21,12 +21,20 @@
                 </div>
                 <form id="signup" onsubmit="signup();return false;">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" id="uname"/>
-                        <label class="mdl-textfield__label" for="uname">Nombre de usuario</label>
+                        <input class="mdl-textfield__input" type="email" id="correo"/>
+                        <label class="mdl-textfield__label" for="correo">Correo</label>
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                         <input class="mdl-textfield__input" type="password" id="pass"/>
                         <label class="mdl-textfield__label" for="pass">Contraseña</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="nom"/>
+                        <label class="mdl-textfield__label" for="nom">Nombre</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="ape"/>
+                        <label class="mdl-textfield__label" for="ape">Apellido</label>
                     </div>
                      <button type="submit" value="Signup" id="login-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">
                             Registrarse
